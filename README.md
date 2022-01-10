@@ -31,19 +31,23 @@
 👤 **Author 1**
 
 - GitHub: [@TimmyChan99](https://github.com/TimmyChan99)
+- LinkedIn: [@Fatima Ezzahra ELMENOUN](https://www.linkedin.com/in/fatima-ezzahra-elemenoun-020841225/)
 
 👤 **Author 2**
 
 - GitHub: [@zieeco](https://github.com/zieeco)
+- LinkedIn: [@Isaac Imaobong Samuel](https://www.linkedin.com/in/isaac-imaobong-samuel-a4849b1b8/)
 
  👤**Author 3**
 
 - GitHub: [@tresorsawasawa](https://github.com/tresorsawasawa)
+- LinkedIn: [@Trésor Sawasawa](https://www.linkedin.com/in/tr%C3%A9sor-sawasawa-43745320b/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issue page
 
 ## Show your support
 
