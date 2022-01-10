@@ -1,4 +1,4 @@
-import printErrorMsg from './printErrorMsg.js';
+import printErrorMsg from './printErrMsg.js';
 
 let books = JSON.parse(localStorage.getItem('books'));
 
