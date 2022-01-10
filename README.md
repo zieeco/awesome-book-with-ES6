@@ -24,7 +24,7 @@
 - Run git clone and paste the link
 - Open the folder with your code editor
 - To run it in your browser you need to install parcel bundler by runnin the command `npm install -g parcel-bundler`
-- Create a branch to work on
+- run this in your terminal: `parcel index.html`
 
 ## Authors
 
