@@ -1,10 +1,11 @@
-![]()
 
 # Awesome Books
 
 > Creating an app that adds and delete books from a list.
 
-![screenshot](./app_screenshot.png)
+<p align="center">
+  <img src="./screenshot.png">
+</p>
 
 ## Built With
 
@@ -13,8 +14,6 @@
 - JavaScript
 
 ## Application Page url
-
-
 
 ## Getting Started
 
@@ -29,16 +28,13 @@
 
 ## Authors
 
-
 👤 **Author 1**
 
 - GitHub: [@TimmyChan99](https://github.com/TimmyChan99)
 
-
 👤 **Author 2**
 
 - GitHub: [@zieeco](https://github.com/zieeco)
-
 
  👤**Author 3**
 
