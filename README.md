@@ -15,6 +15,8 @@
 
 ## Application Page url
 
+- [Live Demo Link](https://zieeco.github.io/awesome-book-with-ES6/)
+
 ## Getting Started
 
 > To get a local copy follow the following steps:
@@ -23,8 +25,6 @@
 - Open your terminal or command line
 - Run git clone and paste the link
 - Open the folder with your code editor
-- To run it in your browser you need to install parcel bundler by runnin the command `npm install -g parcel-bundler`
-- run this in your terminal: `parcel index.html`
 
 ## Authors
 

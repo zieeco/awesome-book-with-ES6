@@ -1,4 +1,4 @@
-import * as LUXON from 'luxon';
+import { DateTime } from './luxon.js';
 
 import Book from './modules/Book.js';
 import displayBook from './modules/displayBook.js';
@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const date = document.getElementById('date');
-const { DateTime } = LUXON;
 const now = DateTime.now();
 date.innerText = now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
 
