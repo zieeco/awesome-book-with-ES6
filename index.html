@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Awesome Books</title>
+</head>
+
+<body>
+  <header>
+    <div class="container d-flex-only">
+      <div class="a">Awesome Books</div>
+      <nav class="d-flex-only">
+        <ul class="d-flex-only">
+          <li class="br "><a class="active" href="#" id="list-of-books">List</a></li>
+          <li class="br"><a href="#add-book" id="add-new-link">Add new</a></li>
+          <li class=""><a href="#contact" id="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="date" id="date"></section>
+
+    <section class="bk-sect">
+
+      <section class="main-book" id="awesome-books">
+        <h1>All awesome books</h1>
+        <ul id="book-list"></ul>
+      </section>
+
+      <section class="bk-form d-flex-2 hide" id="add-book">
+        <form class="d-flex-2" id="book-form">
+          <h2>Add a new book</h2>
+          <input type="text" id="title" placeholder="Title">
+          <input type="text" id="author" placeholder="Author">
+          <button class="mr-4" type="submit" id="add-btn">Add</button>
+          <small class="err-msg"></small>
+        </form>
+      </section>
+
+      <section class="contact-sect d-flex-2 p-tb p-tb-lg hide" id="contact-us">
+        <h2 class="text-center">Contact information</h2>
+        <p class="text-center">Do you have any questions or you just want to say <q>Hello</q>?
+          You can reach out to us!</p>
+        <ul class="d-flex-2">
+          <li>Our e-mail: mail@mail.com</li>
+          <li>Our phone number: 0043586534422</li>
+          <li>Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+      </section>
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; awesome book 2022 - Some right reserved - by
+      <a target="_blank" rel="noreferrer noopener"
+      href="https://github.com/zieeco">zieeco</a> &
+      <a target="_blank" rel="noreferrer noopener"
+      href="https://github.com/Banstein">Banstein</a>
+    </p>
+  </footer>
+  
+  <script type="module" src="index.js"></script>
+
+</body>
+</html>
