@@ -1,0 +1,225 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 24px;
+  font-weight: normal;
+  font-family: 'Balsamiq Sans', cursive;
+  font-style: normal;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.d-flex-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-flex-only {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.active {
+  color: blue;
+}
+
+.br {
+  border-right: 0.3em solid black;
+}
+
+header {
+  border: 0.3em solid black;
+  padding: 8px 16px 8px 12px;
+}
+
+header .container {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.bk-sect {
+  padding: 24px;
+  margin-bottom: 64px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+section.bk-form form {
+  padding: 24px 0;
+  width: 100%;
+}
+
+section.bk-sect h1,
+section.bk-form h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+section.bk-form form input {
+  outline: none;
+  width: 98%;
+  height: 32px;
+  padding: 2px 16px 2px 15px;
+  border: 2px solid black;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+section.main-book ul {
+  margin: 32px 0;
+}
+
+section.main-book ul li {
+  padding: 0 8px;
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.main-book ul li div h2 {
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+section.main-book ul li div {
+  display: flex;
+  align-self: flex-start;
+  margin: auto 0;
+  gap: 4px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+section.bk-form form button,
+section.main-book ul li button {
+  box-shadow: 0.17em 0.17em;
+  border: 2px solid black;
+  padding: 8px;
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+section.main-book ul li button {
+  margin: auto 0;
+}
+
+.hide {
+  display: none;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.p-tb {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer {
+  border: 0.3em solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 8px 16px 8px 12px;
+}
+
+section.contact-sect p {
+  margin: 20px auto;
+}
+
+section.contact-sect ul li {
+  align-self: flex-start;
+  margin: 0 24px;
+  list-style: disc;
+}
+
+header .container nav ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+section.main-book ul li:nth-child(odd) {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+footer p a {
+  color: blue;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  section.bk-sect {
+    padding: 4% 10%;
+  }
+
+  section.main-book ul {
+    max-width: 600px;
+    margin: 32px auto;
+  }
+
+  .p-tb-lg {
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  section.bk-form form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  section.contact-sect p {
+    max-width: 444px;
+    text-align: left;
+    margin: 40px auto;
+  }
+
+  header .container nav ul li {
+    padding: 0.3em 3em;
+  }
+}
